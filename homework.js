@@ -16,7 +16,8 @@ ASSIGNMENT RULES
 //string -"String" -"Used to store text, usable to name things. For example : string = Damian, string = yourname";
 //float -"Floating" -"Used to store Numbers with fractions. For example : float = 5.05 , float = 10.01";
 //boolean - "Boolean" -"Used to store a value of something being true or false. For example : iamOver20YearsOld = true";
-
+//undefined - not properly defined.
+//null -
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
 */
@@ -69,11 +70,29 @@ if (name1 == name2) {
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
-x = 5;
-if (x === 5) {
-  number5 = "five";
-}
-console.log(number5);
+let x1 = 2;
+let numberString =
+  x == 1
+    ? "one"
+    : x1 == 2
+    ? "two"
+    : x1 == 3
+    ? "three"
+    : x1 == 4
+    ? "four"
+    : x1 == 5
+    ? "five"
+    : x1 == 6
+    ? "six"
+    : x1 == 7
+    ? "seven"
+    : x1 == 8
+    ? "eight"
+    : x1 == 9
+    ? "nine"
+    : x;
+
+console.log(numberString);
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
