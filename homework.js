@@ -78,5 +78,6 @@ console.log(number5);
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
-
-/* WRITE YOUR ANSWER HERE */
+const n = 10;
+m = n < 20 ? "It's smaller" : "It's bigger";
+console.log(m);
